@@ -12,7 +12,6 @@ ex. `@s ping a rest api in python @e`
 You will see the text inside the decorators get a glowing bounding box for a few seconds as the prompt is processed, and then the response will be added below the original line.
 
 ## Demo
-![demo 1]([link](https://github.com/deetsadi/VSChat/assets/47929718/8f2eab72-f5c4-47a3-b1a0-1d5ed90e483e))
-![demo 2]([link](https://github.com/deetsadi/VSChat/assets/47929718/2a2cc258-f7e7-4bd1-a683-4163d6d51275))
+![demo_vid_2](https://github.com/deetsadi/VSChat/assets/47929718/a687d268-328f-4665-bed7-efee3ca93ddc)
 
 
