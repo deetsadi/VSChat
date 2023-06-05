@@ -1,0 +1,34 @@
+{
+  "name": "code-search",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.32.0"
+  },
+  "activationEvents": [
+    "onStartupFinished",
+    "onCommand:extension.setAPIKey",
+    "onCommand:extension.checkAPIKey",
+    "onCommand:extension.deleteAPIKey",
+    "onCommand:extension.setMaxTokens"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.setAPIKey",
+        "title": "Set OpenAI API Key"
+      },
+      {
+        "command": "extension.deleteAPIKey",
+        "title": "Delete OpenAI API Key"
+      },
+      {
+        "command": "extension.setMaxTokens",
+        "title": "Set Max Tokens for ChatGPT Response"
+      }
+    ]
+  },
+  "main": "extension.js",
+  "dependencies": {
+    "openai": "^3.2.1"
+  }
+}
