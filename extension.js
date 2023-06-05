@@ -158,8 +158,8 @@ async function codeSearch(activeEditor,lineIndex,context) {
   // decorateText(lineIndex, startIndex, endIndex);
   decorateText(lineIndex, startIndex, endIndex);
 
-  if (!process.env.MAX_TOKENS) process.env.MAX_TOKENS = 200;
-  response = await chat.generate(codeSearchSnippet, process.env.OPENAI_API_KEY, parseInt(process.env.MAX_TOKENS));
+  // if (!process.env.MAX_TOKENS) process.env.MAX_TOKENS = 200;
+  response = await chat.generate(codeSearchSnippet, process.env.OPENAI_API_KEY, 200);
   // numberDecorationType.dispose();
   revertDecoration(lineIndex, startIndex, endIndex);
 
