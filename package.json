@@ -2,7 +2,7 @@
   "name": "vschat-gpt",
   "displayName": "VSChat - Code Faster and Smarter",
   "description": "Harness the power of ChatGPT within your IDE.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "aditya-sridhar",
   "icon": "./img/logo.jpg",
   "engines": {
