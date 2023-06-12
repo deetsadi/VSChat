@@ -1,7 +1,7 @@
 # VSChat
 
 ## Description
-A VSCode extension that allows a seamless integration of ChatGPT into the IDE. Just supply your OpenAI API Key and get up running in seconds.
+A VSCode extension that allows a seamless integration of ChatGPT into the IDE. Just supply your OpenAI API Key to get up and running in seconds.
 
 ## Installation
 The extension is available here: https://marketplace.visualstudio.com/items?itemName=aditya-sridhar.vschat-gpt
